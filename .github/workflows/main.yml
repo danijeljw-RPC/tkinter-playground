@@ -19,7 +19,7 @@ jobs:
     - name: Run script
       run: python main.py
     - name: Save DOCX file
-      uses: actions/upload-artifacts@v3
+      uses: actions/upload-artifact@v3
       with:
         name: sample-doc
         path: sample.docx
