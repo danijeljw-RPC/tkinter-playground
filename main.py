@@ -6,7 +6,7 @@ def pdf_to_docx(pdf_path, docx_path):
     # Open the PDF file
     with open(pdf_path, 'rb') as file:
         # Create a PDF object
-        pdf = pypdf2.PdfFileReader(file)
+        pdf = PyPDF2.PdfFileReader(file)
 
         # Create a DOCX file
         docx = docx.Document()
