@@ -2,8 +2,8 @@
 from pdf2docx import Converter
 
 # Specifying the pdf & docx files
-pdf_file = 'engine.pdf'
-docx_file = 'muscles.docx'
+pdf_file = 'sample.pdf'
+docx_file = 'sample.docx'
 
 
 try:
